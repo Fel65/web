@@ -20,3 +20,6 @@ module.exports = {
     '@babel/preset-typescript',
   ],
 };
+
+// NOTE: `loose: true` can slightly change emitted class semantics.
+// Keep this only if all TS class fields are compatible.
